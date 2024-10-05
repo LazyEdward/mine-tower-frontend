@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100dvh;
+  pointer-events: none;
+  touch-action: none;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+#canvas {
+  background-color: #83A2FF;
+  pointer-events: auto;
+  touch-action: none;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 425px) {
+  body {
+    margin: 20px;
+    overflow: auto;
+    height: auto;
+    align-items: baseline;
+  }
+}
